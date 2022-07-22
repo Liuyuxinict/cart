@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04670f47-b5a6-4963-994f-08899e6e8241" name="Default Changelist" comment="" />
+    <list default="true" id="04670f47-b5a6-4963-994f-08899e6e8241" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/model_itera/DMSTransformer_v8.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_itera/DMSTransformer_v8.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="24H2QE8rDhehcehZxGexyZlh8Wq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />

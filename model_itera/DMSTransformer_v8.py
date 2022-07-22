@@ -952,7 +952,7 @@ class DLETransformer(nn.Module):
 
     def __init__(self, img_size=224, patch_size=4, in_chans=3, num_classes=1000,
                  embed_dim=96, depths=[2, 2, 6, 2], num_heads=[3, 6, 12, 24], window_size=7, Attention_Group = [1, 2, 4, 8],
-                 Attention_type=[['W', 'W'], ["W", "W"], ["W", "W", "W", "W", "W", "W"], ["W", "W"]],
+                 Attention_type=[['W', 'W'], ["W", "W"], ["WD", "WD", "WD", "WD", "WD", "WD"], ["W", "W"]],
                  dynamic_factor=[None, 2, 2,  2], dynamic_stride=[None, 2, 2, 2], center_k=3, postype="rel",
                  mlp_ratio=4., qkv_bias=True, qk_scale=None, drop_rate=0., attn_drop_rate=0., conv_mlp=False,
                  drop_path_rate=0.1, conv_pe=False, conv_pm=False, norm_layer=LayerNorm2D, ape=False,
