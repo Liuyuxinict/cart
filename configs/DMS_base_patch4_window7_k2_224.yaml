@@ -1,0 +1,15 @@
+MODEL:
+  TYPE: DMS-Transformer
+  NAME: DMS_base_patch4_window7_k2_224
+  DROP_PATH_RATE: 0.5
+  DMS:
+    EMBED_DIM: 128
+    DEPTHS: [2, 2, 18, 2]
+    NUM_HEADS: [4, 8, 16, 32]
+    WINDOW_SIZE: 7
+    ATTENTION_TYPE: [['W','W'],["W","D"],["W","D","W","D","W","D","W","D","W","D","W","D","W","D","W","D","W","D"],["D","D"]]
+    DYNAMIC_FACTOR: [2, 4, 2, 1]
+    DYNAMIC_STRIDE: [2, 4, 2, 2]
+    CENTER_K: 2
+    CONV_PE: True
+    CONV_PM: True
